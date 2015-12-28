@@ -1,0 +1,11 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "logs/mobile",
+      "pattern": "-yyyy-MM-dd.log",
+	    "maxLogSize": 20480,
+      "alwaysIncludePattern": true
+    }
+  ]
+}
